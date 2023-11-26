@@ -1,2 +1,2 @@
-# Wedlock-Studio---A-Wedding-Management-Webiste
+# Wedlock-Studio---A-Wedding-Management-Website
 It is a HTML, CSS, JS and PHP approach towards an online wedding management website
