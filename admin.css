@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lovelyn', sans-serif;
+}
+body{
+    background: #DFBC69;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0.3);
+    width: 350px;
+    height: 370px;
+    padding: 30px;
+    border-radius: 5px;
+}
+.head{
+    display: flex;
+    text-align: center;
+    color:palevioletred;
+}
+.logo{
+    max-height: 50px;
+}
+.title{
+    font-weight: 600;
+    font-size: 30px;
+}
+.container .text{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+
+}
+.container form{
+    margin-top: 40px;
+}
+.container form .data{
+    height: 45px;
+    width: 100%;
+    margin: 30px 0;
+}
+form .data label{
+    font-size: 18px;
+    color: black;
+}
+form .data input{
+    height: 90%;
+    width: 100%;
+    padding-left: 8px;
+    font-size: 17px;
+    margin-top: 4px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+form .data input:hover{
+    background: white;
+}
+form .forget-pass{
+    margin-top: 5px;
+}
+form .forget-pass a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+form .forget-pass a:hover{
+     color:palevioletred;
+     font-weight: 500;
+}
+form .btn {
+    margin: auto;
+    margin-top: 15px;
+    height: 40px;
+    width: 150px;
+    position: relative;
+}
+
+form .btn button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: black;
+}
+form .btn button:hover{
+    background:palevioletred;
+}
+
+/*login Form end*/

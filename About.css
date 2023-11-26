@@ -1,0 +1,239 @@
+.background{
+  background-image: linear-gradient( to right, #ffffc7,#ffffdb);
+	background-attachment: fixed;
+	background-size: cover;
+  padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Background Video start*/
+.background-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .background-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .background-video{
+        width: auto;
+        height: 100%;
+    }
+}
+/*Background Video end*/
+
+
+/*For banner content*/
+.banner-content{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+.banner-content p{
+    color: white;
+    font-family: 'Lovelyn', sans-serif;
+    font-size: 8vh;
+    font-weight: bolder;
+}
+.banner-content p span{
+    font-size: 6vh;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    margin-left: 15%;
+}
+.banner-content .start-button{
+    margin-left: 30%;
+    margin-top: 20px;
+    width: 30%;
+    padding: 20px 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+}
+.banner-content .start-button:hover{
+    border: 2px solid #bf953f;
+    background-color: #bf953f;
+}
+.banner-content .start-button .s-button{
+    text-decoration: none;
+    color: white;
+}
+
+/*login Form and Sign-up form*/
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(254,251,234,0.75);
+    width: 350px;
+    padding: 30px;
+    display: none;
+}
+/*For login Form*/
+#show:checked ~ .container{
+    display: block;
+}
+/*For Sign-up form*/
+#view:checked ~ .container{
+    display: block;
+}
+/*For Login and Sign-up form*/
+input[type="checkbox"]{
+    display: none;
+}
+.container .text{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+}
+.container form{
+    margin-top: -20px;
+}
+.container form .data{
+    height: 45px;
+    width: 100%;
+    margin: 30px 0;
+}
+form .data label{
+    font-size: 18px;
+}
+form .data input{
+    height: 90%;
+    width: 100%;
+    padding-left: 8px;
+    font-size: 17px;
+    margin-top: 4px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+form .data input:hover{
+    background: white;
+}
+form .forget-pass{
+    margin-top: 5px;
+}
+form .forget-pass a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+form .forget-pass a:hover{
+     color:#bf953f;
+     font-weight: 500;
+}
+form .btn {
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    position: relative;
+}
+
+form .btn button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+form .btn button:hover{
+    background:#bf953f;
+}
+form .link {
+    text-align: center;
+    margin-top: 10px;
+}
+form .link a{
+    color: red;
+    text-decoration: none;
+}
+form .link a:hover{
+    color: #bf953f;
+}
+
+/* About Us */
+#container{
+   box-shadow: 0 15px 30px 1px grey;
+   background: rgba(255, 255, 255, 0.90);
+   text-align: center;
+   border-radius: 5px;
+   overflow: hidden;
+   margin: auto;
+   height: 500px;
+   width: 1000px;
+}
+
+/* Our services */
+.ourservices{
+  box-shadow: 0 15px 30px 1px grey;
+  background: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: auto;
+  height: 500px;
+  background-size: cover;
+}
+
+.serviceText {
+   position: relative;
+   text-align: right;
+   overflow: hidden;
+   padding: 60px;
+   height: 100%;
+   float: left;
+   width: 40%;
+   font-family: 'Lovelyn', sans-serif;
+   font-style: normal;
+   position: relative;
+   font-size: 50px;
+   color: #DFBD69;
+   margin: 0;
+ }
+
+ .servicedetails {
+   background-image: linear-gradient( to right, #ffffc7,#ffffff);
+   font-size: 25px;
+   text-align: center;
+   color: #7d7d7d;
+   padding-top: 5%;
+   display: inline-block;
+   position: relative;
+   overflow: hidden;
+   height: 100%;
+   float: right;
+   width: 45%;
+ }
+
+ .serviceImage{
+   max-width: 100%;
+   height: 70%;
+ }
+
+ 
+  
+  
+
+  
+     
